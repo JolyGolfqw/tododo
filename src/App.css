@@ -1,0 +1,83 @@
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+button {
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.input-container {
+  display: flex;
+  transition: background-color 0.3s;
+  align-items: center;
+}
+
+.input-container input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: calc(100% - 22px);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-container button {
+  margin-left: 5px;
+  background-color: #28a745;
+}
+
+.input-container button:hover {
+  background-color: #218838;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.todo-item button {
+  background-color: #dc3545;
+}
+
+.todo-item button:hover {
+  background-color: #c82333;
+}
+
+.info-text {
+  text-align: center;
+}
